@@ -140,6 +140,12 @@ width: 7px;
     padding: 10px 25px;
 }
 
+.button-bordered:hover{
+    background-color: #f0f0f0;
+    color: #FF535D;
+    border-radius: 100px;
+}
+
 .button-white{
     background-color: #f0f0f0;
     color: #FF535D;
@@ -148,6 +154,11 @@ width: 7px;
     padding: 10px 25px;
     font-weight: bold;
     font-size: 1vw;
+}
+
+.button-white:hover{
+    background-color: #f0f0f06f;
+    color: #f0f0f0;
 }
 
 .intro-content{
@@ -367,10 +378,15 @@ display: flex;
     font-size: 1vw;
 }
 
+.footer-links:hover{
+    text-decoration: underline;
+
+}
+
 .footer-title{
     color: #f0f0f0;
     line-height: 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .attribution{
